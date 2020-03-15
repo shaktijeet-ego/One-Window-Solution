@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>One window solution</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2">
+                <div class="card-group" style="width: 18rem;">
+                    <div class="card">
+                        <img src="rajivsir.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body centre">
+                            <h5 class="card-title   ">Customer Name: Rajiv Bogati</h5>
+                            <p class="card-text ">Address: Kalopool</p>
+                            <p class="card-text ">Pr Number: 9801158306</p>
+                            <p class="card-text ">Sec Number: 9801158307</p>
+                            <p class="card-text ">Registered Date: 14/03/2020</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item list-group-item-primary">Subscription: Active Days: 3/27</li>
+                            <li class="list-group-item list-group-item-primary"><span
+                                    class="badge badge-success">Service: Internet ACtive:(Yes) </li>
+                                    <li class="list-group-item list-group-item-primary">Subscription: 25 Mbps Unlimited </li>
+                                    <li class="list-group-item list-group-item-primary"><span
+                                        class="badge badge-success">Data Service Status:Active </li>
+                            <li class="list-group-item list-group-item-primary"><span class="badge badge-success">Device
+                                    Status: Online<span></li>
+                            <li class="list-group-item list-group-item-primary">Clear TV: <span
+                                    class="badge badge-danger">Deactive</span></li>
+                            <li class="list-group-item list-group-item-primary"><span class="badge badge-warning">CPE
+                                    PING STATUS: 20% Loss </span></li>
+                            <li class="list-group-item list-group-item-primary">User Access Log: 12/3/2020 8:30 PM
+                            </li>
+                            <li class="list-group-item list-group-item-primary">Current Download: 25 Mb Upload: 0.01 Mb
+                            </li>
+                        </ul>
+                        <div class="card-body">
+
+                            <a href="#" class="card-link">Ticket Status</a>
+                            <a href="#" class="card-link">In Progress</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                
+            <!---CPE Details-->
+            <div class="col-sm-10">
+<!--Subsctiption Details-->
+                <div class="jumbotron" style="margin-left:100px">
+                    <div class="container">
+                        <h1>Subscription Details</h1>
+                        <p class="lead"><li class="list-group-item list-group-item-primary"><span class="badge badge-success">Complaints via Registered Number: 6<span></li></p>
+                    </div>
+                </div>
+                <div class="jumbotron" style="margin-left:100px">
+                    <div class="container">
+                        <h1>CPE Details</h1>
+                        <p class="lead"></p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item list-group-item-primary"><span
+                                    >CPE IP: <b>182.65.45.6</b> </li>
+                            <li class="list-group-item list-group-item-primary"><span>MAC :88:b3:85:98:89:09 <span></li>
+                                <li class="list-group-item list-group-item-primary"><span>Uptime : 2 hrs<span></li>
+                                        <li class="list-group-item list-group-item-primary"><span> Optical Power: -16.99 dbm<span></li>
+                                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#cpeconfig">
+                                            Change CPE Config
+                                        </button>
+                                        <div class="modal fade" id="cpeconfig" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">CPE Configuration</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <button type="button" class="btn btn-primary">Reboot</button><button type="button" class="btn btn-warning">&nbsp; Reset</button><br><br><br>
+                                      <label for="exampleInputEmail1">SSID</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="TEST-WIFI">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                      <label for="exampleInputPassword1">Password</label>
+                                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="p@ssw0rd">
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">SSID Broadcast</label>
+                                      </div>
+                                    
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                  </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--Port Details-->
+                <div class="jumbotron" style="margin-left:100px">
+                    <div class="container">
+                        <h1>Port Details</h1>
+                        <p class="lead"><li class="list-group-item list-group-item-primary"><span>Slot
+                            No: 1<span></li></p>
+                        <p class="lead"><li class="list-group-item list-group-item-primary"><span class="badge badge-success">Port
+                            Status: Online<span></li></p>
+                                <p class="lead"><li class="list-group-item list-group-item-primary"><span>Port
+                                    No: 5<span></li></p>
+                    </div>
+                </div>
+                
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="card-group">
+        <div class="card bg-light border-success">
+            <div class="card-body">
+
+                <h5 class="card-title  text-primary">Internet</h5>
+                <p class="card-text">OLT: Gbaluwatar</p>
+                <p class="card-text">Slot No:2</p>
+                <p class="card-text text-primary">Port No:5 </p>
+                <p class="card-text "><span class="badge badge-success">Port Status: Up<span></p>
+                <p class="card-text "><span class="badge badge-danger">Last Down: 3/12/2020 8:21 PM</span></p>
+                <p class="card-text">CPE IP</p>
+                <p class="card-text">MAC: 88:b3:85:98:89:09</p>
+            </div>
+        </div>
+        <div class="card bg-light border-warning">
+            <div class="card-body ">
+                <h5 class="card-title text-primary">Clear TV</h5>
+                <p class="card-text text-primary">No. of Boxes: 3</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
+                    Serial No: 123456789011
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Subscription Status</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                <p class="card-text">Payment date: 14/02/2020</p>
+                <p class="card-text">Expiration date: 14/03/2021 </p>
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Reactive</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal2">
+                    Serial No: 123456789012
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabe2" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Sunscription Status</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="card-text">Payment date: 14/02/2020</p>
+                                <p class="card-text">Expiration date: 14/03/2021 </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Reactive</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                    Serial No: 123456789013
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card bg-light border-danger">
+            <div class="card-body">
+                <h5 class="card-title text-primary">In progress Ticket</h5>
+                <p class="card-text">Domain: Cable Blink</p>
+                <p class="card-text">Department: RF</p>
+                <p class="card-text">Case Registered Time: 3/12/2020</p>
+                <p class="card-text">Handled By: Ramesh Upreti</p>
+                <p class="card-text">ETR: About 1 hour</p>
+                <p class="card-text"><a href="#">Click for more details</a></p>
+                <p class="card-text"><button class="btn btn-primary">Send Reminder</button></p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card bg-light border-success">
+            <div class="card-body">
+                <h5 class="card-title text-primary">Last ticket</h5>
+                <p class="card-text">Domain: Slow Browsing</p>
+                <p class="card-text">Department: L1</p>
+                <p class="card-text">Case Registered Time: 1/12/2020</p>
+                <p class="card-text">Handled By: Srijan Hamal</p>
+                <p class="card-text">ETR: Not Required</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 days ago</small></p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
